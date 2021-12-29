@@ -1,21 +1,25 @@
 .frenchSection6-container {
   /* border:1px solid red; */
   position: relative;
-  background-color: #f2fbff;
+  background-color:#f2fbff;
+ 
+}
+.frenchSection6-card1-container{
+  width:407px;
+  height:430px;
+  background-color:#ffffff;
+  z-index:100;
 }
 .frenchSection6-image1 {
-  position: absolute;
-  
+  position: absolute; 
   left: 0px;
 }
 .frenchSection6-card1-image2 {
     
     height:15px;
     width:92px;
-    margin-top:60px;
-   
-    
-   
+    margin-top:30px;
+
   }
   .frenchSection6-carousal-container{
       display: flex;
@@ -33,7 +37,7 @@
   padding-top: 45px;
 }
 .frenchSection6-row1-card1 {
-  background-color: #ffffff;
+  
   color: #697694;
   position: relative;
   border-radius: 5px;
@@ -43,11 +47,21 @@
 }
 .frenchSection6-details-container{
     display: flex;
-    border:1px solid red;
+    height:80px;
 }
 .frenchSection6-profile-image{
     flex:1;
 }
 .frenchSection6-info{
     flex:1;
+
 }
+.frenchSection6-info h3 , .frenchSection6-info h6{
+  margin: 0px;
+}
+.frenchSection6-profile-image img{
+  width:50px;
+  height:100%;
+  border:1px solid red;
+}
+

@@ -33,7 +33,10 @@ function FrenchSection6() {
 
               <div className="frenchSection6-details-container">
                 <div className="frenchSection6-profile-image">
-                  <img  src="" alt="image2"></img>
+                  <img 
+                    src="/images/frenchSection6-image10.svg"
+                    alt="profileImage"
+                  ></img>
                 </div>
                 <div className="frenchSection6-info">
                   <h3>Aagam Agrawal</h3>
