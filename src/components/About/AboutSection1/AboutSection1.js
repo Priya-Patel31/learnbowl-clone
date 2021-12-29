@@ -22,13 +22,23 @@ function AboutSection1() {
           the learning process in a holistic, student-friendly environment. With
           our primary focus being on extra-curricular learning, we believe in
           enriching our students’ academic persona. To accomplish this, we have
-          a seasoned faculty on board.<br></br><br></br>
-           With the teaching of the French language
-          being the first of our many initiatives, come join us on a journey to
-          accomplish the ‘out of the ordinary.
+          a seasoned faculty on board.<br></br>
+          <br></br>
+          With the teaching of the French language being the first of our many
+          initiatives, come join us on a journey to accomplish the ‘out of the
+          ordinary.
         </p>
+        <a className="aboutSection1-contact" href="/contact">
+          Contact us↗
+        </a>
       </div>
-      <div className="aboutSection1-card2-container"></div>
+      <div className="aboutSection1-card2-container">
+        <img
+          className="aboutSection1-image3"
+          src="/images/aboutSection1-image3.svg"
+          alt="image3"
+        ></img>
+      </div>
     </div>
   );
 }
