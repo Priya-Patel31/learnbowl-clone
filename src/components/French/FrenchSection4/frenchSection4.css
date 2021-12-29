@@ -1,0 +1,87 @@
+.frenchSection4-content{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    
+}
+.frenchSection4-container{
+    background-color: #F2FBFF;
+    margin-top:20px;
+    /* */ 
+    
+}
+.common-color{
+    color:#2D3092;
+}
+.frenchSection4-heading{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.frenchSection4-header{
+    color: #1E2063;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0px;
+    padding:0px;
+    text-align: left;
+}
+.frenchSection4-card1{
+    /* border:1px solid red; */
+    border-left: 5px solid #FFB300;
+    padding-left: 10px;
+    margin-bottom: 90px;
+}
+.frenchSection4-card2{
+    border-left: 5px solid #D65555;
+    padding-left: 10px;
+}
+.frenchSection4-card3{
+    border-left: 5px solid #4980A9 ;
+    padding-left: 10px;
+    margin-bottom: 90px;
+
+}
+.frenchSection4-card4{
+    border-left: 5px solid  #56A219;
+    padding-left: 10px;
+}
+.aifillstar{
+    font-size: 25px;
+}
+.frenchSection4-text{
+    color:rgba(0, 1, 48, 0.6);
+    margin: 0px;
+    padding:0px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+   
+}
+.frenchSection4-cards-container{
+    display: flex;
+    flex-direction:row;
+    margin-top:20px;
+    margin-left:90px;
+    
+}
+.frenchSection4-group1-container{
+   flex:1;
+   flex-direction:column;
+   margin-right: 0px;
+ 
+}
+.frenchSection4-group2-container{
+    flex:1;
+ }
+ .frenchSection4-header-box{   
+ }
+ 
+.frenchSection4-col1{
+    flex:1;
+}
+.frenchSection4-col2{
+    flex:1;
+    margin-top:20px;
+}

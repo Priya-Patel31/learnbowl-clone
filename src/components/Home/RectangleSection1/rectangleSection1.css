@@ -1,0 +1,61 @@
+.RectangleSection-container{
+    height:377px;
+    background-color:#4C4EAF;
+    
+}
+.RectangleSection-heading{
+    background-color:#4C4EAF;
+    padding-top:38px;
+    margin-top:60px;
+    margin-bottom:60px;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 600;
+  
+}
+.RectangleSection-heading-image1{
+    background-color:#4C4EAF;
+    width:90%;
+    margin-bottom:57px;
+    margin-left:5%;
+    margin-right:5%;
+    
+}
+.RectangleSection-Icon{
+   
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    
+}
+.RectangleSection-Icons-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    height:56px;
+}
+.section-icon1{
+    padding-left:20px;
+    padding-right:20px ;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.section-icon2{
+   
+    align-items: center;
+    justify-content: center;
+}
+.section-icon3{
+    
+    align-items: center;
+}
+.lottieIcon1,.lottieIcon2 ,.lottieIcon3{
+    height:50px;
+}
+.lottieIcon1-Desc,.lottieIcon2-Desc,.lottieIcon3-Desc{
+    margin-left:10px;
+    color:#FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+}

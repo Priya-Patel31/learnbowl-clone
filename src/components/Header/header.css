@@ -1,0 +1,40 @@
+.header-container{
+    margin-bottom:27px;
+    background-color:#f7f7fb;
+    flex:1 1;
+    display: flex;
+    cursor:pointer;
+
+}
+.header-logo-container{
+   
+   margin-left:90px;
+   margin-right: 17.1rem; 
+}
+.header-logo{
+    width:225px;   
+    margin-top:16px;
+}
+.header-nav-links{
+    display: flex;
+    list-style: none;
+    height:45px;
+    padding:0.4rem;   
+}
+.header-nav-list-item{
+    margin-right:50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left:5px;
+    padding-right:5px;
+    text-decoration: none;
+    color:black;
+    
+}
+.active{
+    color: #00318F;
+    font-weight: bold;
+    border-bottom: 3px solid  #00318F;
+    border-radius:2px;
+}

@@ -1,0 +1,147 @@
+/* .body{
+    background-color: #f7fafb
+} */
+.frenchSection1-container {
+  display: flex;
+}
+.frenchHeroSection1 {
+  flex: 2;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  /* border:1px solid red; */
+}
+.frenchHeroSection2 {
+  flex: 1;
+  margin-right: 90px;
+  margin-left: 40px;
+  max-width: 498px;
+  margin-top: 40px;
+
+}
+.frenchHero-text1 {
+  /* border:1px solid red; */
+  font-size: 18px;
+  font-weight: 400;
+  color: #d65555;
+  /* padding: 0px; */
+  text-align: left;
+  margin-bottom: 0px;
+}
+.frenchHero-text2 {
+  font-size: 49px;
+  font-weight: 700;
+  color: #323232;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  /* border:1px solid red; */
+}
+
+.frenchHero-text3 {
+  color: #2d3092;
+  font-size: 49px;
+  font-weight: 700;
+  display: inline-block;
+}
+.frenchHero-text4 {
+  color: #7d7d7d;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 5px;
+}
+.frenchSection1-Image1 {
+  margin-left: -40px;
+}
+.FrenchSection-1-row1 {
+  flex: 1;
+}
+.FrenchSection-1-row2 {
+  flex: 1;
+}
+.frenchHeroSection-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e2063;
+}
+.frenchSection-form {
+  /* background-color: #ffffff;
+  box-shadow: 0px 4px 40px 15px rgba(227, 241, 251, 0.5);
+  border-radius: 15px; */
+  
+}
+.frenchSection-input-box-container {
+  margin-bottom: 25px;
+}
+.input-box placeholder {
+  color: #282828;
+  font-size: 15px;
+  font-weight: 500;
+}
+.frenchHeroSection-input-box {
+  /* border: 1px solid red; */
+  position: relative;
+  height: 623px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px 15px rgba(227, 241, 251, 0.5);
+  margin-bottom:8px;
+  border-radius: 20px;
+}
+.input-box {
+  width: 400px;
+  height: 45px;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  padding-left: 7px;
+}
+.frenchHeroSection-form-checkbox {
+  color: #d65555;
+}
+.frenchSection2-btn1 {
+  width: 135px;
+  height: 40px;
+  border-radius: 100px;
+  color: #ffffff;
+  border: 1px solid #303030;
+  background-color: #303030;
+  margin-right: 0.5em;
+}
+.frenchSection2-btn2 {
+  width: 135px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+}
+.frenchSection-2-buttons {
+  text-align: left;
+}
+.frenchSection2-checkbox-container {
+  text-align: left;
+  margin-top: 10px;
+}
+.frenchSection2-checkbox-content {
+  color: red;
+  text-align: left;
+}
+.frenchSection2-submit-btn {
+  background-color: #2d3092;
+  color: #ffffff;
+  width: 225px;
+  height: 50px;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #2d3092;
+  border-radius: 10px;
+  float: left;
+  margin-top: 15px;
+}
+.frenchSection1-image{
+  position:absolute;
+right:0px;
+bottom: 0px;
+}

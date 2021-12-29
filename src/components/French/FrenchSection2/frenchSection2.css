@@ -1,0 +1,44 @@
+.french-section2-container{
+    background-color:#F2FBFF;
+    position: relative;
+    /* border:1px solid blue; */
+    padding-bottom: 61px;
+}
+.frenchSection2-header-image{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.common-color{
+    color: #2D3092;
+}
+.frenchSection-2-heading{
+    color:#323232;
+    font-size: 45px;
+    font-weight:600;
+    padding-top: 40px;
+}
+.frenchSection2-card1-text1{
+    font-size:18px;
+    font-weight: 600;
+    color: #000000;
+    margin:auto;
+}
+
+.frenchSection2-card-container{
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+   
+}
+
+.frenchSection2-card1{
+    flex: 1;
+}
+.frenchScetion2-text12{
+    display:block;
+}
+.frenchSection2-card1-container{
+    display: flex;
+    flex-direction: row;
+}

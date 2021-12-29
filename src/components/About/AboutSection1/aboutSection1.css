@@ -1,0 +1,43 @@
+.aboutSection1-container {
+  position: relative;
+  padding-top: 20px;
+  display: flex;
+}
+.header-container {
+  margin-bottom: 0px;
+}
+.aboutSection1-image1 {
+  max-width: 750px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+.aboutSection1-image2 {
+  width: 60%;
+  max-width: 360px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.aboutSection1-card1-container{
+    flex:1;
+    padding-left:70px;
+    
+}
+.aboutSection1-card2-container{
+    flex: 1;
+}
+.aboutSection1-card1-heading{
+    color: #2D3092;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 60px;
+
+}
+.aboutSection1-card1-content{
+    text-align: left;
+}
+
