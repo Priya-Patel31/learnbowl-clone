@@ -5,7 +5,8 @@ function AboutSection3() {
   return (
     <div className="aboutSection3-container">
       <div className="aboutSection3-image-container">
-        <img src="/images/aboutSection3-image1.svg" alt="image1"></img>
+        <img className="aboutSection3-image1" src="/images/aboutSection3-image1.svg" alt="image1"></img>
+        <img className="aboutSection3-circle1"  src="/images/aboutSection3-circle2.svg" alt="image3"></img>
       </div>
       <div className="aboutSection3-content-container">
         <img src="/images/aboutSection3-circle4.svg" alt="image1"></img>
@@ -19,6 +20,7 @@ function AboutSection3() {
           </p>
         </div>
       </div>
+      
     </div>
   );
 }

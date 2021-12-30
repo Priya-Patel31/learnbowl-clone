@@ -1,0 +1,40 @@
+.aboutSection4-container{
+    display: flex;
+}
+.aboutSection4-image-container{
+   flex: 1;
+    /* width:500px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.aboutSection4-content-container{
+    flex:1;
+    
+}
+.aboutSection4-image-container img{
+    width:480px;
+    padding-top: 30px;
+}
+.aboutSection4-color{
+    font-weight: 600;
+}
+.aboutSection4-subcontainer{
+  
+    padding-left: 50px;
+    margin-top:230px;
+}
+.aboutSection4-subcontainer h3{
+    color:#2D2D2D;
+    font-size:50px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.aboutSection4-subcontainer p{
+
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+   
+}

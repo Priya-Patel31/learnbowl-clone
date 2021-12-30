@@ -1,6 +1,5 @@
 .aboutSection3-container{
     position: relative;
-   
     /* z-index:2; */
     display: flex;
 }
@@ -17,8 +16,6 @@
 
 }
 .aboutSection3-subcontainer p{
-    /* border:1px solid red; */
-    
     text-align: left;
     font-size: 18px;
     font-weight: 400;
@@ -39,7 +36,14 @@
     top:-70px;
     z-index:-10;
 }
-.aboutSection3-image-container img{ 
+.aboutSection3-circle1{
+    position: absolute;
+    left:0px;
+    bottom:-170px;
+    z-index:-100;
+}
+.aboutSection3-image1{ 
+    position: relative;
     padding-top:50px;
     /* padding-bottom:50px; */
     width:500px;

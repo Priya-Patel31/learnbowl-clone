@@ -1,0 +1,35 @@
+.aboutSection5-container {
+  background-color: #383bb4;
+  position: relative;
+  
+}
+.aboutSection5-image1{
+    position: absolute;
+    width:100px;
+    height:120px;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+.aboutSection5-image2{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.aboutSection5-heading{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-top:60px;
+
+}
+.aboutSection5-icons-container{
+    display: flex;
+    /* border:1px solid red; */
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.aboutSection5-icon1{
+    flex:1;
+    /* border:1px solid red; */
+}
