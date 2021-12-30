@@ -9,6 +9,7 @@
   height:430px;
   background-color:#ffffff;
   z-index:100;
+  box-shadow:0px 15px 35px rgba(39, 44, 47, 0.1);
 }
 .frenchSection6-image1 {
   position: absolute; 
@@ -18,7 +19,7 @@
     
     height:15px;
     width:92px;
-    margin-top:30px;
+    margin-top:60px;
 
   }
   .frenchSection6-carousal-container{
@@ -30,18 +31,21 @@
     text-align: left;
     padding-left: 40px;
     padding-right:40px ;
+    padding-top:20px;
+    padding-bottom: 43px;
+    color:#000000;
 }
+
 .frenchSection6-heading {
   font-size: 45px;
   font-weight: 600;
   padding-top: 45px;
 }
 .frenchSection6-row1-card1 {
-  
-  color: #697694;
+  /* border:1px solid red; */
   position: relative;
   border-radius: 5px;
-  box-shadow:  drop-shadow(0px 15px 35px rgba(39, 44, 47, 0.1));
+  
 }
 .frenchSection6-card1-image2 {
 }
@@ -50,11 +54,34 @@
     height:80px;
 }
 .frenchSection6-profile-image{
-    flex:1;
+    flex:0.7;
+    /* border:1px solid red; */
 }
 .frenchSection6-info{
+  /* border:1px solid red; */
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  margin-top:10px;
+  padding: 0px;
+}
+.frenchSection6-info h3{
     flex:1;
+    
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    /* border:1px solid red; */
+    color:#697694;
 
+}
+.frenchSection6-info h6{
+  flex:1;
+  font-size: 16px;
+  font-weight:normal;
+  color: #697694;
+  /* opacity: 0.7; */
 }
 .frenchSection6-info h3 , .frenchSection6-info h6{
   margin: 0px;
@@ -62,6 +89,6 @@
 .frenchSection6-profile-image img{
   width:50px;
   height:100%;
-  border:1px solid red;
+  /* border:1px solid red; */
 }
 

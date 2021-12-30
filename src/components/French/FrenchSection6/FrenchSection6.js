@@ -14,8 +14,9 @@ function FrenchSection6() {
         What our <span className="common-color">Students</span> Say
       </h3>
       <div className="frenchSection6-carousal-container">
-        <Carousel>
+        {/* <Carousel> */}
           <div className="frenchSection6-card1-container">
+             {/* Row-1 Card-1 */}
             <div className="frenchSection6-row1-card1">
               <div>
                 <img
@@ -44,20 +45,86 @@ function FrenchSection6() {
                 </div>
               </div>
             </div>
-            <div></div>
-            <div></div>
+
+            {/* Row-1 Card-2 */}
+            <div className="frenchSection6-row1-card1">
+              <div>
+                <img
+                  className="frenchSection6-card1-image2"
+                  src="/images/star-image.svg"
+                  alt="starImage"
+                ></img>
+                <p className="frenchSection6-description">
+                  It seems classes are going well as enjoy these classes and do
+                  not miss any sessions. Problem solving is also really
+                  satistfactory and the work given is also adequate and fun to
+                  do. I would recommend Learnbowl for all courses they offer.
+                </p>
+              </div>
+
+              <div className="frenchSection6-details-container">
+                <div className="frenchSection6-profile-image">
+                  <img 
+                    src="/images/frenchSection6-image10.svg"
+                    alt="profileImage"
+                  ></img>
+                </div>
+                <div className="frenchSection6-info">
+                  <h3>Aagam Agrawal</h3>
+                  <h6>Ryan International Delhi,Class 6</h6>
+                </div>
+              </div>
+            </div>
+
+           {/* Row-1 Card-3*/}
+            <div className="frenchSection6-row1-card1">
+              <div>
+                <img
+                  className="frenchSection6-card1-image2"
+                  src="/images/star-image.svg"
+                  alt="starImage"
+                ></img>
+                <p className="frenchSection6-description">
+                  It seems classes are going well as enjoy these classes and do
+                  not miss any sessions. Problem solving is also really
+                  satistfactory and the work given is also adequate and fun to
+                  do. I would recommend Learnbowl for all courses they offer.
+                </p>
+              </div>
+
+              <div className="frenchSection6-details-container">
+                <div className="frenchSection6-profile-image">
+                  <img 
+                    src="/images/frenchSection6-image10.svg"
+                    alt="profileImage"
+                  ></img>
+                </div>
+                <div className="frenchSection6-info">
+                  <h3>Aagam Agrawal</h3>
+                  <h6>Ryan International Delhi,Class 6</h6>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="frenchSection6-card1-container">
-            <div></div>
-            <div></div>
-            <div></div>
+          
+
+
+
+
+
+
+
+
+
+
+           {/* Row-2 Container*/}
+          {/* <div className="frenchSection6-card2-container">
+           
           </div>
-          <div className="frenchSection6-card1-container">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </Carousel>
+          <div className="frenchSection6-card3-container">
+            
+          </div> */}
+        {/* </Carousel> */}
       </div>
     </div>
   );
