@@ -20,8 +20,7 @@
 
  }
  .contact-detail-content-container{
-    flex:1;
-     border:1px solid red;
+    flex:0.5;
      text-align:left;
      background-color:  #383bb4;
      border-radius:20px;
@@ -47,16 +46,18 @@
      color:#FFFFFF;
  }
  .contact-deat-col1{
-    flex:1;
-    border:1px solid red;
+    flex:0.1;
+    margin: auto;
+   
  }
  .contact-deat-col2{
-     flex:2;
+     flex:1;
      flex-direction: column;
      display: flex;
-     border:1px solid red;
+    
  }
 .contact-details-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    border:1px solid red;
 }
