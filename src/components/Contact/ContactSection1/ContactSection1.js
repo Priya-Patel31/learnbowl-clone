@@ -11,7 +11,7 @@ function ContactSection1() {
     <div className="contact-container">
       <div className="contact-detail-content-container">
         <h3>Contact Us</h3>
-        <p>
+        <p className="contact-deatail-subtext">
           Fill up the form and our team will get back to you shortly or use any
           of the following ways to reach us.
         </p>
@@ -32,7 +32,7 @@ function ContactSection1() {
           <div className="contact-deat-col2">
             <div className="contact-deat-col2-row1">Aladdin Mansion</div>
             <div className="contact-deat-col2-row2">
-              Begumpet,Hyderabad 500016
+              Begumpet, Hyderabad 500016
             </div>
           </div>
         </div>
@@ -54,7 +54,11 @@ function ContactSection1() {
             <GrInstagram></GrInstagram>
           </div>
         </div>
-        <img src="circleContactDeat.svg" alt="circle2"></img>
+        <img
+          className="contact-deat-img1"
+          src="/images/circleContactDeat.svg"
+          alt="circle2"
+        ></img>
       </div>
 
       <div className="contact-form-container"></div>

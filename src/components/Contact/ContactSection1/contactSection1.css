@@ -1,15 +1,17 @@
 .contact-container{
-    display: flex;  
+    display: flex; 
+    margin-top:50px; 
 }
 
 .contact-form-container{
     flex:1;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
  .contact-detail-content-container h3{
      font-size: 50px;
      font-weight: 600;
      color: #FFFFFF;
+    
 
  }
  .contact-detail-content-container p{
@@ -24,14 +26,23 @@
      text-align:left;
      background-color:  #383bb4;
      border-radius:20px;
-    padding-left:30px;
-    padding-right:30px;
+     padding-left:30px;
+     padding-right:30px;
      margin-left:20px;
      margin-right:20px;
-     
+     padding-bottom: 50px;
+     position: relative; 
+ }
+ .contact-deatail-subtext{
+     margin-bottom:60px;
+ }
+ .contact-details-container{
+     margin-top:40px;
  }
  .contact-deat-col1-row1{
      color: #FBA229;
+     font-size: 25px;
+     padding-right:20px;
  }
  .contact-deat-col2-row1{
     flex:1;
@@ -41,23 +52,41 @@
  }
  .contact-deat-col2-row2{
      flex:1;
-     font-size: 16px;
-     font-weight: 400;
+     font-size: 18px;
+     font-weight: 300;
+     margin-top:10px;
      color:#FFFFFF;
  }
  .contact-deat-col1{
     flex:0.1;
     margin: auto;
-   
  }
  .contact-deat-col2{
      flex:1;
      flex-direction: column;
      display: flex;
-    
+  
  }
 .contact-details-container{
     display: flex;
     flex-direction: row;
-    border:1px solid red;
+   
+}
+.contact-icons{
+    display: flex;
+    margin-top:40px;
+    margin-left:5px;
+}
+.contact-deat-fb-icon,.contact-deat-ig-icon{
+    color:#FFFFFF;
+    font-size: 25px;
+    margin-right:30px;
+}
+.contact-deat-img1{
+    /* border:1px solid red; */
+    width:300px;
+    height:300px;
+    position:absolute;
+    right:0px;
+    bottom: -11px;
 }
