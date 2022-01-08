@@ -61,7 +61,13 @@ function ContactSection1() {
         ></img>
       </div>
 
-      <div className="contact-form-container"></div>
+      <div className="contact-form-container">
+        <form>
+          <label>
+            <input type="name" placeholder="Name" required></input>
+          </label>
+        </form>
+      </div>
     </div>
   );
 }
